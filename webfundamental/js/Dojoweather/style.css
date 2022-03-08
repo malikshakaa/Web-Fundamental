@@ -1,0 +1,125 @@
+
+.container{
+    margin: 0 auto;
+}
+header{
+    background-color: #9fc5f8;
+    height: 80px;
+}
+header div{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    width: 50%;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 5px;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+}
+/* section span{
+    justify-content: right; */
+section div{
+    background-color: #eee;
+    margin: 20px 10px;
+}
+.redtemp{
+    color: red;
+    font-size: large;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+.bluetemp{
+    color: blue;
+    font-size: large;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px ;
+}
+img{
+    border-radius: 50%;
+    margin: auto;
+    width: 80%;
+    height: 45%;
+    display: block;
+}
+h4{
+    margin-left: 29%;
+}
+
+footer button{
+    background-color: #095ffd;
+    color:rgb(20, 4, 4);
+    font-size: large;
+    border:3px solid black;
+    box-shadow: 4px 4px black;
+    height: 10%;
+    width: 40%;
+    margin-top: 5%;
+}
+section div:first-child{
+    margin-left: 0px;
+}
+section div:last-child{
+   
+ margin-right: 0px;
+}
+h2{
+    text-align: center;
+}
+.cookie img{
+    width: 8%;
+}
+.cookie{
+    display: flex;
+    border: solid black 3.5px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    background-color:  #eee;
+}
+.last{
+    text-align: left;
+    margin-left: 10px;
+} 
+h3,.last p{
+    margin: 0px;
+}
+.cookie button{
+    background-color: #9fc5f8;
+    color:rgb(20, 4, 4);
+    font-size: large;
+    border:3px solid black;
+    box-shadow: 1.2px 1.2px black;
+    height: 10%;
+    width: 15%;
+}   
+#temp{
+    background-color: #eee;
+}

@@ -1,0 +1,29 @@
+.box{
+    border: 5px solid black;
+    width: 35%;
+    height: 10%;
+    margin: auto;
+    padding: 2%;
+
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+.first button{
+    background-color: #ffd966;
+    color:rgb(20, 4, 4);
+    font-size: large;
+    border:3px solid black;
+    box-shadow: 4px 4px black;
+    height: 10%;
+    width: 20%;
+    margin-top: 5%;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+}

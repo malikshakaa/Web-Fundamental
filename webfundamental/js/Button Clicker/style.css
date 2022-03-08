@@ -1,0 +1,124 @@
+.container{
+    display: inline-block;
+    margin-left:20%;
+}
+header{
+    background-color: silver;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+header button{
+    background-color:#2b78e4;
+    color: white;
+    height: 40px;
+    width: 70px;
+    border:3px solid black;
+    box-shadow: 4px 4px black;
+    border-width:medium;
+
+}
+input{
+    color: black;
+    border:3px solid black;
+    width: max-content;
+    width: 500px;
+}
+.rightbox{
+    display: flex;
+    align-items: center;
+    border: 4px black solid;
+    padding: 5px ;
+    flex: 4;
+    margin-bottom: 50px;
+}
+nav{
+    display: flex;
+}
+.leftbox{
+    align-items: center;
+    border: 4px black solid;
+    padding: 20px ;
+    flex: 2;
+    margin-left: 50px;
+    height: 120px;
+}
+.leftbox button{
+    background-color:#93c47d;
+    color: rgb(14, 2, 2);
+    height: 40px;
+    width: 150px;
+    border:3px solid black;
+    box-shadow: 4px 4px black;
+    border-width:medium;
+    font-size: large;
+    font-weight: 700;
+}
+.rightbox2{
+    display: flex;
+    align-items: center;
+    border: 4px black solid;
+    padding-bottom: 15px ;
+    flex: 4;
+    width: 915px;
+    height: 200px;
+    justify-content: space-around;
+}
+.rightbox2 button{
+    background-color: #ffd966;
+    color: rgb(20, 4, 4);
+    height: 40px;
+    width: 70px;
+    border:3px solid black;
+    box-shadow: 4px 4px black;
+    border-width:medium;
+    font-weight: 700;
+    margin-left: 50px ;
+}
+.rightbox button{
+background-color: #ffd966;
+color: rgb(20, 4, 4);
+height: 40px;
+width: 70px;
+border:3px solid black;
+box-shadow: 4px 4px black;
+font-weight: 700;
+margin-left: 30px;
+}
+.rb22 p{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.rb11 h1{
+    font-size: 70px;
+    margin-left: 40px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+.rb11 p{
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+.rb11 button{
+    margin-bottom: 100px;
+}
+.rb1 h1{
+    font-size: 70px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.rb1 button{
+    margin-bottom: 30px;
+}
+.rightbox p{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.rb1{
+    display: inline-block;
+}

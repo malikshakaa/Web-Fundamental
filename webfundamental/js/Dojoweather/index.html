@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>DojoWeather</h1>
+                <ul>
+                    <li><a href="#" onclick="report()">Burbank</a></li>
+                    <li><a href="#" onclick="report()">Chicago</a></li>
+                    <li><a href="#" onclick="report()">Dallas</a></li>
+                </ul>
+            </div>    
+        </header>
+        <nav>
+            <h3>San Jose</h3>
+            <p>show tepretsure in <select id="temp" onchange="newtemp('blueone')">
+                <option value="c">°C</option>
+                <option value="f">°F</option>
+                </select></p>
+        </nav>  
+        <section>
+            <div class="todat">
+                <h2>Today</h2>  
+                <img src="some_sun.png" alt="some_sun">
+                <h4>some sun</h4>
+                <span id="blueone"class="redtemp">27</span>
+                <span id="blueone"class="bluetemp">19</span>
+            </div>
+            <div class="tomorrow">
+                <h2>Tomorrow</h2>
+                <img src="some_rain.png" alt="some_sun"width=80%>
+                <h4>some rain</h4>
+                <span id="blueone"class="redtemp">24</span>
+                <span id="blueone"class="bluetemp">18</span>
+            </div>
+            <div class="friday">
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="some_sun"width=80%>
+                <h4>some clouds</h4>
+                <span id="blueone"class="redtemp">21°</span>
+                <span id="blueone"class="bluetemp">16°</span>
+            </div>
+            <div class="saturday">
+                <h2>saturday</h2>
+                <img src="some_rain.png" alt="some_sun"width=80%>
+                <h4>some rain</h4>
+                <span id="blueone"class="redtemp">24°</span>
+                <span id="blueone"class="bluetemp">18°</span>
+                </div>
+            </div>
+          </section>
+
+        <div id="cookies"class="cookie">
+            <img src="cookie.png" alt="cookie">
+            <div class="last">
+                <h3>Stop! cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize
+                    contet and ads,to provide social media features and to 
+                    analyse our traffic<a href="#">Read me</a></p>
+            </div>
+         
+                <button onclick="acc()">I Accept</button>
+
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.nav{
+    background-color: #505050;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-title{
+    flex: 1;
+    color: white;
+    margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+a{
+    color: rgb(228, 214, 214);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;   
+}
+ul{
+    list-style-type: none;
+}
+.active{
+    color: white;
+}
+.btn{
+        background-color:#17a2b8;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        box-shadow: 4px 4px black;
+}

@@ -1,0 +1,18 @@
+h1{
+    color:aqua; background-color: black;
+    font-size: 50px;
+    font-family:cursive;
+}
+span{
+    color:white;
+}
+h2{
+    color: white; background-color: blueviolet;
+    text-align: center; font-style: italic;
+    font-family:cursive;
+}
+h3{
+    color:indigo; background-color: cornflowerblue;
+    text-align: right; text-decoration: underline;
+    font-family:cursive;
+}

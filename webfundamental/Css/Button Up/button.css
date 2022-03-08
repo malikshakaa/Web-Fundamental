@@ -1,0 +1,31 @@
+button {
+    margin: 10px;
+display:block;
+}
+.first{
+color:#62bbbd;
+border: 2PX solid aqua;
+border-radius: 10px;
+width: 170PX;
+height: 30px;
+font-size: 20px;
+font-weight: 600;
+}
+.second{
+    color: white;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: 2PX solid aqua;
+}
+.third{
+    color:white;
+    background-color: #2b78e4;
+    box-shadow: 10px 5px 5px black;
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+}
+
